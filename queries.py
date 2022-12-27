@@ -5,9 +5,7 @@ from tabulate import tabulate
 import pandas as pd
 '''
 def log():
- cur.execute("INSERT INTO  logirovanie(genre,author,book) values ('','','')")
- rows = cur.fetchall()
-
+ cur.execut
  con.commit()
 '''
 
